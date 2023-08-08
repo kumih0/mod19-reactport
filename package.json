@@ -1,0 +1,12 @@
+{
+  "name": "mod20-reactport",
+  "version": "1.0.0",
+  "description": "Module 20 Challenge - React Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
