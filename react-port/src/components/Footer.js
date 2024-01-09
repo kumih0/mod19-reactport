@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer id="footer" className="footer">
             <div class="container">
-                <div class="socials-media">
+                <div class="socials">
 
                     <ul>
                         <li><a href="#"><i class="bi bi-github"></i></a></li>
@@ -15,7 +15,11 @@ const Footer = () => {
                     </ul>
 
                 </div>
+
+                
             </div>
         </footer>
     );
 };
+
+export default Footer;
