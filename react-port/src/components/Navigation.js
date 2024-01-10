@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function Navbar() {
+function NavBar() {
   return (
     <>
       {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
@@ -69,4 +69,4 @@ function Navbar() {
 // };
 
 
-export default Navbar;
+export default NavBar;
