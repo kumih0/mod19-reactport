@@ -4,9 +4,9 @@ const About = () => {
     return (
     <div id="about" >
         <div class="container">
+                <div>images</div>
             <div class="row">
 
-                <div>images</div>
                 <div>description</div>
                 <div>education</div>
             </div>
