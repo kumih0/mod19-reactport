@@ -10,13 +10,16 @@ function Tabbs() {
       justify
     >
       <Tab eventKey="main" title="Main">
-        Tab content for Main resume
+        Tab content for Main
       </Tab>
-      <Tab eventKey="profile" title="Profile">
-        Tab content for Profile
+      <Tab eventKey="dev" title="dev">
+        Tab content for dev
       </Tab>
-      <Tab eventKey="longer-tab" title="Loooonger Tab">
-        Tab content for Loooonger Tab
+      <Tab eventKey="food" title="food">
+        Tab content for food
+      </Tab>
+      <Tab eventKey="childcare" title="childcare">
+        Tab content for childcare
       </Tab>
       <Tab eventKey="contact" title="Contact" disabled>
         Tab content for Contact
