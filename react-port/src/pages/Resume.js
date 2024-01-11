@@ -11,7 +11,35 @@ function Resume() {
                 <Stack gap={3}>
                     <Row className="work-exp">
                         <Col>
+                            <div className="title-heading">
+                                <h3>Experience</h3>
+                            </div>
+                            <Row className="work-exp-item">
+                                <Col>
+                                <Row className="job-heading">       
+                                <Col className="job-place">
+                                <h4 className="title-heading">Job Title</h4>
+                                <h5 className="subtitle">Place, location</h5>
+                                </Col>
+                                <Col className="subtitle job-time">
+                                    <p className="description">
+                                        Month Year - Month Year
+                                    </p>
+                                </Col>
 
+                                </Row>
+                                <Row className="job-detail">
+                                    <Col>
+                                    <p>Brief description of job</p>
+                                    <ul>
+                                        <li>highlight 1</li>
+                                        <li>highlight 2</li>
+                                        <li>highlight 3</li>
+                                    </ul>
+                                    </Col>
+                                </Row>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                     <Row className="edu">
@@ -25,6 +53,9 @@ function Resume() {
                             </Col>
                             <Col>
                             <p>Bachelor's of Arts, Asian Studies</p>
+                            </Col>
+                            <Col>
+                            <p>Graduated 2019</p>
                             </Col>
                         </div>
                         </Col>
