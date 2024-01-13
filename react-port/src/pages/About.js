@@ -1,16 +1,20 @@
 import React from 'react';
+import Container from 'react-bootstrap/esm/Container';
+import Row from 'react-bootstrap/esm/Row';
+import Col from 'react-bootstrap/esm/Col';
 
 const About = () => {
     return (
     <div id="about" >
-        <div class="container">
+        <Container>
                 <div>images</div>
-            <div class="row">
+            <Row>
 
                 <div>description</div>
                 <div>education</div>
-            </div>
-        </div>
+                <div>skills/programming lang</div>
+            </Row>
+        </Container>
     </div>
     );
 };

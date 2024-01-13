@@ -14,7 +14,7 @@ function Resume() {
                     <Accordion defaultActiveKey="0">
                         <Row className="work-exp">
                             <Col>
-                            <Accordion.Item eventKey="0">
+                            <AccordionItem eventKey="0">
                                 <Accordion.Header className="title-heading">
                                     <h3>Experience</h3>
                                 </Accordion.Header>
@@ -30,8 +30,8 @@ function Resume() {
                                                     Month Year - Month Year
                                                 </p>
                                             </Col>
-
                                         </Row>
+                                        
                                         <Row className="job-detail">
                                             <Col>
                                                 <p>Brief description of job</p>
@@ -44,12 +44,12 @@ function Resume() {
                                         </Row>
                                     </Col>
                                 </Accordion.Body>
-                            </Accordion.Item>
+                            </AccordionItem>
                             </Col>
                         </Row>
                         <Row className="edu">
                             <Col>
-                                <Accordion.Item eventKey="1">
+                                <AccordionItem eventKey="1">
                                     <Accordion.Header className="title-heading">
                                         <h3>Education</h3>
                                     </Accordion.Header>
@@ -64,12 +64,12 @@ function Resume() {
                                             <p>Graduated 2019</p>
                                         </Col>
                                     </Accordion.Body>
-                                </Accordion.Item>
+                                </AccordionItem>
                             </Col>
                         </Row>
                         <Row className="skills">
                             <Col>
-                                <Accordion.Item eventKey="2">
+                                <AccordionItem eventKey="2">
                                     <Accordion.Header className="title-heading">
                                         <h3>Skills</h3>
                                     </Accordion.Header>
@@ -80,12 +80,12 @@ function Resume() {
                                             <li>skill 3</li>
                                         </ul>
                                     </Accordion.Body>
-                                </Accordion.Item>
+                                </AccordionItem>
                             </Col>
                         </Row>
                         <Row className="certs">
                             <Col>
-                                <Accordion.Item eventKey="3">
+                                <AccordionItem eventKey="3">
                                     <Accordion.Header className="title-heading">
                                         <h3>Certifications</h3>
                                     </Accordion.Header>
@@ -96,7 +96,7 @@ function Resume() {
                                             <li>cert ex 3 date</li>
                                         </ul>
                                     </Accordion.Body>
-                                </Accordion.Item>
+                                </AccordionItem>
                             </Col>
                         </Row>
                     </Accordion>
