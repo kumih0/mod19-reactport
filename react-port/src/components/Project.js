@@ -5,10 +5,11 @@
 // ref: itemprop= name codeRepository, description, use restapi from github
 
 import React from 'react';
+import Card from 'react-bootstrap/Card'
 
 const Project = (props) => {
     return (
-        <div className="project text-center">
+        <div className="project">
             <img />
             <h3>Project name</h3>
             <p>project description</p>
