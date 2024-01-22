@@ -10,9 +10,7 @@ const About = () => {
     return (
             <Card id="about" >
                 <CardImg src={face} alt="Me :)" />
-                {/* will contain img carousel */}
                 <CardImgOverlay>
-                    {/* will contain details as overlay */}
                     <CardTitle>About Me</CardTitle>
                     <CardText>Hi it's me</CardText>
                     <CardText>More about me</CardText>
