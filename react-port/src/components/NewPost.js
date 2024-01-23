@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form'
 import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
 import FormGroup from 'react-bootstrap/esm/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
-import { Button } from 'bootstrap';
+import Button from 'react-bootstrap/Button';
 
 // TO DO: make only accessible to me as admin to write blog posts
 const NewPost = () => {
