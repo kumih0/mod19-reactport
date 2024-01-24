@@ -36,3 +36,5 @@ const ContactForm = () => {
         </Form>
     );
 };
+
+export default ContactForm;

@@ -40,6 +40,7 @@ function Resume() {
                                                 <ListGroupItem>highlight 3</ListGroupItem>
                                             </ListGroup>
                                         </Card>
+                                        
 
                                     </Accordion.Body>
                                 </AccordionItem>
@@ -116,3 +117,5 @@ function Resume() {
         </div>
     );
 };
+
+export default Resume;
