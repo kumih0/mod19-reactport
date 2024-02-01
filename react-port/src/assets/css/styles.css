@@ -1,13 +1,27 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-.title-heading{
+.title-heading {
     color: aliceblue;
     font-weight: bolder;
 }
 
-.subtitle{
+.subtitle {
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.
+/* .main {
+    background-image: url(../img/me/yeouido-uke.JPG);
+    transition: all 3s;
+    transition: all 3s allow-discrete;
+
+}
+
+.main.fade-in {
+    opacity:
+}
+
+.main.fade.out {
+    opacity: 10%;
+    display: flex;
+} */
