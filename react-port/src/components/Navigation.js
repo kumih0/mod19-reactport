@@ -1,3 +1,6 @@
+// TO DO: must edit navbar so only one appears instead of 5??? check docs
+
+
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import FormGroup from 'react-bootstrap/esm/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
-
+// TODO: wrap inside container card and make neater, add email
 const ContactForm = () => {
     return (
         <Form>
