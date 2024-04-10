@@ -8,6 +8,7 @@ import AccordionItem from 'react-bootstrap/AccordionItem';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import WorkExp from './WorkExp';
 
 function Resume() {
     return (
@@ -19,30 +20,7 @@ function Resume() {
                         <Row className="work-exp">
                             <Col>
                                 <AccordionItem eventKey="0">
-                                    <Accordion.Header className="title-heading">
-                                        <h3>Experience</h3>
-                                    </Accordion.Header>
-                                    <Accordion.Body className="work-exp-items">
-
-                                        <Card>
-                                            <Card.Header className="job-heading">
-                                                <Card.Title className="job-title">Job Title</Card.Title>
-                                                <Card.Subtitle className="job-place">Place, Location</Card.Subtitle>
-                                                <Card.Text className="job-time">Month Year - Month Year</Card.Text>
-                                            </Card.Header>
-
-                                            <Card.Body>
-                                                <Card.Text className="job-detail">Brief description of job</Card.Text>
-                                            </Card.Body>
-                                            <ListGroup className="job-highlights">
-                                                <ListGroupItem>highlight 1</ListGroupItem>
-                                                <ListGroupItem>highlight 2</ListGroupItem>
-                                                <ListGroupItem>highlight 3</ListGroupItem>
-                                            </ListGroup>
-                                        </Card>
-                                        
-
-                                    </Accordion.Body>
+                                    <WorkExp />
                                 </AccordionItem>
                             </Col>
                         </Row>
