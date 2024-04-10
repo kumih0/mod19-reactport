@@ -11,7 +11,7 @@ import CardText from "react-bootstrap/esm/CardText";
 
 const Home = () => {
     return (
-        <Container className="main">
+        <Container className="home">
             <Card id="Home">
             <CardImg src={mainImg} fluid />
             <CardImgOverlay>
