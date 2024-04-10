@@ -20,7 +20,14 @@ function Resume() {
                         <Row className="work-exp">
                             <Col>
                                 <AccordionItem eventKey="0">
-                                    <WorkExp />
+                                    <Accordion.Header className="title-heading">
+                                        <h3>Experience</h3>
+                                    </Accordion.Header>
+                                    <Accordion.Body className="work-exp-items">
+
+                                        <WorkExp />
+                                        
+                                    </Accordion.Body>
                                 </AccordionItem>
                             </Col>
                         </Row>
