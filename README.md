@@ -4,7 +4,7 @@ Module 20 Challenge - React Portfolio
 ## pseudo code for my poor organization
 
 ## big boy time
-TODO: nuke app.js
+DONE: nuke app.js
 <!-- -utilize react-router-dom in index.js
     --establish routes to pgs, decide what will render on main
     --check that header and navbar will work w routes -->
