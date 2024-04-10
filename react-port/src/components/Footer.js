@@ -1,10 +1,11 @@
 import React from 'react';
+import Container from 'react-bootstrap/esm/Container';
 
-
+// TODO: css styles for ul social footer 
 const Footer = () => {
     return (
         <footer id="footer" className="footer">
-            <div class="container">
+            <Container>
                 <div class="socials">
 
                     <ul>
@@ -15,9 +16,8 @@ const Footer = () => {
                     </ul>
 
                 </div>
-
-                
-            </div>
+                <p>Copyright &copy; KT Eddy 2024. All Rights Reserved</p>
+            </Container>
         </footer>
     );
 };

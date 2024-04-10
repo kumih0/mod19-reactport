@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+// TODO: cross ref diff b/w navlink rxbs and rx-rtr-rom
 
 function NavBar() {
   return (
@@ -40,7 +41,7 @@ function NavBar() {
                       Socials
                     </NavDropdown.Item> 
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#Resumes">Resumes</NavDropdown.Item>
+                    <NavDropdown.Item href="/Resumes" >Resumes</NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
 
