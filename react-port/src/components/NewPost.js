@@ -6,7 +6,7 @@ import FormGroup from 'react-bootstrap/esm/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 
-// TO DO: make only accessible to me as admin to write blog posts
+// TODO: make only accessible to me as admin to write blog posts
 const NewPost = () => {
     return (
         <Container>

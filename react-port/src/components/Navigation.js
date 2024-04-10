@@ -40,7 +40,7 @@ function NavBar() {
                       Socials
                     </NavDropdown.Item> 
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#Resume">Resumes</NavDropdown.Item>
+                    <NavDropdown.Item href="#Resumes">Resumes</NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
 

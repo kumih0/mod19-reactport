@@ -5,10 +5,12 @@ import CardText from 'react-bootstrap/CardText';
 import CardImgOverlay from 'react-bootstrap/esm/CardImgOverlay';
 import CardImg from 'react-bootstrap/esm/CardImg';
 import face from '../assets/img/me/cottoncandy-face.JPG';
+import Container from 'react-bootstrap/esm/Container';
 
 // TODO: create styles.css for card formatting, create border and color scheme
 const About = () => {
     return (
+        <Container>
             <Card id="About" >
                 <CardImg src={face} alt="Me :)" />
                 <CardImgOverlay>
@@ -17,6 +19,7 @@ const About = () => {
                     <CardText>More about me</CardText>
                 </CardImgOverlay>
             </Card>
+        </Container>
     );
 };
 

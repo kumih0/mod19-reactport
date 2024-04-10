@@ -11,7 +11,7 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
 function Resume() {
     return (
-        <div className="resumes">
+        <div className="resumes" id='Resumes'>
             <Container fluid >
                 <Stack gap={3}>
                     <Accordion defaultActiveKey="0">
