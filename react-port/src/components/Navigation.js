@@ -1,6 +1,3 @@
-// TO DO: must edit navbar so only one appears instead of 5??? check docs
-
-
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -10,21 +7,19 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function NavBar() {
   return (
-    <>
-      {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3" data-bs-theme="dark" sticky="top">
+        <Navbar expand='md' className="bg-body-tertiary mb-3" data-bs-theme="dark" sticky="top">
           <Container fluid>
             <Navbar.Brand href="#Home">
             <img />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
             <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              id={`offcanvasNavbar-expand-md`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-md`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
                   logo
                 </Offcanvas.Title>
               </Offcanvas.Header>
@@ -35,7 +30,7 @@ function NavBar() {
                   <Nav.Link href="#Projects">Projects</Nav.Link>
                   <NavDropdown
                     title="Contact"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    id={`offcanvasNavbarDropdown-expand-md`}
                   >
                   <NavDropdown.Item href="#Contact">
                       Contact
@@ -53,8 +48,6 @@ function NavBar() {
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
-      ))}
-    </>
   );
 };
 

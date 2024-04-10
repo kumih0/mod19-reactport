@@ -7,7 +7,6 @@ import CardTitle from 'react-bootstrap/esm/CardTitle';
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import CardText from 'react-bootstrap/esm/CardText';
 
-// TODO: wrap inside container card and make neater, add email
 const Contact = () => {
     return (
         <Container>
@@ -16,7 +15,7 @@ const Contact = () => {
                     <CardTitle>Contact</CardTitle>
                 </CardHeader>
                 <CardBody>
-                    <CardText>Leave me a message here :)</CardText>
+                    <CardText>Questions?  Comments?  Deep-seated emotional trauma burning through your mind?  Drop me a line below!</CardText>
                     <ContactForm />
                 </CardBody>
             </Card>
