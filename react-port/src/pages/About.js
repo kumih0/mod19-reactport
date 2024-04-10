@@ -9,7 +9,7 @@ import face from '../assets/img/me/cottoncandy-face.JPG';
 // TODO: create styles.css for card formatting, create border and color scheme
 const About = () => {
     return (
-            <Card id="about" >
+            <Card id="About" >
                 <CardImg src={face} alt="Me :)" />
                 <CardImgOverlay>
                     <CardTitle>About Me</CardTitle>

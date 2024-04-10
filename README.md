@@ -6,8 +6,8 @@ Module 20 Challenge - React Portfolio
 ### Main bs
  - make it work lol
  - svg for "logo"
- - check if bootstrap icons font actually works
- - socials in footer
+ <!-- - check if bootstrap icons font actually works
+ - socials in footer -->
  
 ### home
  - decide on big background photo

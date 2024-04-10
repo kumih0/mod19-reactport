@@ -1,40 +1,27 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button'
-import FormGroup from 'react-bootstrap/esm/FormGroup';
-import FormControl from 'react-bootstrap/FormControl';
-import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
+import ContactForm from '../components/ContactForm';
+import Container from 'react-bootstrap/esm/Container';
+import Card from 'react-bootstrap/Card';
+import CardBody from 'react-bootstrap/esm/CardBody';
+import CardTitle from 'react-bootstrap/esm/CardTitle';
+import CardHeader from 'react-bootstrap/esm/CardHeader';
+import CardText from 'react-bootstrap/esm/CardText';
+
 // TODO: wrap inside container card and make neater, add email
-const ContactForm = () => {
+const Contact = () => {
     return (
-        <Form>
-            <FormGroup className="" controlId='contactEmail'>
-                <FloatingLabel controlId='email' label="Email address" className='mb-3'>
-                    <FormControl type="email" placeholder="Email address" required />
-                </FloatingLabel>
-            </FormGroup>
-            <FormGroup className="" controlId="contactName">
-                <FloatingLabel controlId="name" label="Contact name" className='mb-3'>
-                    <FormControl type="text" placeholder="Contact name" required />
-                </FloatingLabel>
-            </FormGroup>
-            <FormGroup className="" controlId="msgSubject">
-                <FloatingLabel controlId="subject" label="Subject" className='mb-3'>
-                    <FormControl type="text" placeholder="Subject" required />
-                </FloatingLabel>
-            </FormGroup>
-            <FormGroup className="" controlId='msgText'>
-                <FloatingLabel controlId="message" label="Message" required>
-                    <Form.Control
-                        as="textarea"
-                        placeholder="Leave a message here :)"
-                        style={{ height: '200px' }}
-                    />
-                </FloatingLabel>
-            </FormGroup>
-            <Button variant="primary" type="submit">Send message</Button>
-        </Form>
+        <Container>
+            <Card id='Contact'>
+                <CardHeader>
+                    <CardTitle>Contact</CardTitle>
+                </CardHeader>
+                <CardBody>
+                    <CardText>Leave me a message here :)</CardText>
+                    <ContactForm />
+                </CardBody>
+            </Card>
+        </Container>
     );
 };
 
-export default ContactForm;
+export default Contact;

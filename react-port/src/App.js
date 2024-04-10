@@ -8,11 +8,11 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Home></Home>
-      <About></About>
-      <Contact></Contact>
-      <Footer></Footer>
+      <Header />
+      <Home />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }

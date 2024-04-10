@@ -12,7 +12,7 @@ import CardText from "react-bootstrap/esm/CardText";
 const Home = () => {
     return (
         <Container className="main">
-            <Card id="home">
+            <Card id="Home">
             <CardImg src={mainImg} fluid />
             <CardImgOverlay>
                 {/* <Typing startDelay={100} speed={50}> */}
