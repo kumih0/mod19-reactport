@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
 
-
+// TODO: useeffect and props to populate resume info
 const WorkExp = () => {
     return (
         <Card>
